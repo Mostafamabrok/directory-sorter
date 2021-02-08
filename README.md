@@ -1,4 +1,5 @@
 #directory-sorter
+
 This program takes the directory you want to sort and sorts it into different folders
 For example:
 .pdf goes to pdfs
