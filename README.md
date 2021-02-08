@@ -1,4 +1,4 @@
-##directory-sorter
+#directory-sorter
 This program takes the directory you want to sort and sorts it into different folders
 For example:
 Mycv.pdf goes to pdfs
