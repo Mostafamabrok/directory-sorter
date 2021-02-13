@@ -4,9 +4,9 @@ import os
 directory = input("Folder you want to organize, Full path please: ")
 targets = [os.path.join(directory,"pdfs"), os.path.join(directory,"Pictures"), os.path.join(directory,"worddocs"), os.path.join(directory,"zipfiles"), os.path.join(directory,"misc"), os.path.join(directory,"txtfiles")]
 
-    for paths in targets:
-        if not os.path.isdir(paths):
-            os.mkdir(paths)
+for paths in targets:
+    if not os.path.isdir(paths):
+        os.mkdir(paths)
 
 for filename in os.listdir(directory):
         
