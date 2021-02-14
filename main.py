@@ -27,7 +27,7 @@ for filename in os.listdir(directory):
         
     if filename.endswith(".docx"):
         target = targets[2]
-        move
+        move()
         
     if filename.endswith(".txt"):
         target = targets[5]
