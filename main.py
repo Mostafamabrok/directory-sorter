@@ -19,7 +19,7 @@ for filename in os.listdir(directory):
         
     if filename.endswith(".png") or filename.endswith(".jpg"):
         target = targets[1]
-        move
+        move()
         
     if filename.endswith(".pdf"):
         target = targets[0]
