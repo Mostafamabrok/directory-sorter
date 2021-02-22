@@ -7,4 +7,4 @@ For example:
 .zip goes to zippedfiles
 .docx goes to worddocs
 .png and .jpg go to Pictures
-and any other file goes to misc.
+and any other file-type goes to misc.
