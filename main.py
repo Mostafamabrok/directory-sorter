@@ -39,7 +39,7 @@ for filename in os.listdir(directory):
         target = targets[4]
         move()
     
-    if filename.endswith(".csv") or filename.endswith(".xslx"):
+    if any(filename.endswith(".xlsx"), filename.endswith(".csv"), filename.endswith(".json")):
         target = targets[5]
         move()
         
@@ -48,7 +48,7 @@ for filename in os.listdir(directory):
         continue
     elif os.path.isfile(os.path.join(directory, filename)):
         target = targets[6]
-        shutil.move(os.path.join(directory, filename), os.path.join(target, filename))
+        move()
 
         
                     
