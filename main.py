@@ -2,7 +2,7 @@ import shutil
 import os
 
 #This takes the directory the user wants to organize as input
-directory = input("Folder you want to organize, Full path please: ")
+directory = input("Folder you want to organize, Input the full path please: ")
 
 targets = [os.path.join(directory,"pdfs"), os.path.join(directory,"Pictures"), os.path.join(directory,"worddocs"), os.path.join(directory,"zipfiles"), os.path.join(directory,"txtfiles"), os.path.join(directory,"data"),os.path.join(directory,"misc")]
 
