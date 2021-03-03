@@ -49,6 +49,3 @@ for filename in os.listdir(directory):
     elif os.path.isfile(os.path.join(directory, filename)):
         target = targets[6]
         move()
-
-        
-                    
